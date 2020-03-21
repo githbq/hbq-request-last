@@ -1,6 +1,6 @@
 {
     "name": "request-last",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "request-last",
     "main": "build/index.js",
     "scripts": {
