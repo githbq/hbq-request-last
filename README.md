@@ -1,5 +1,5 @@
-> 对异步请求函数，多次请求始终返回最后一次执行的结果，
-解决慢请求覆盖最后一次请求结果的问题
+> 对异步函数，多次执行始终返回最后一次执行的结果，
+解决慢执行结果覆盖最后一次请求结果的问题
 
 ![my love](./logo.png)   
 
@@ -14,7 +14,7 @@ npm i request-last
 import requestLast from 'reqeust-last'   
 {
   reqeust:requestLast(function (){
-    return ajax.get(/*...*/) 
+    return yourAsyncFunciton(/*...*/) 
   })
 }
 ```
