@@ -1,7 +1,7 @@
 {
-    "name": "hbq-request-last",
+    "name": "request-last",
     "version": "0.0.1",
-    "description": "hbq-request-last",
+    "description": "request-last",
     "main": "build/index.js",
     "scripts": {
         "start:build": "npm run tsc && node build",
